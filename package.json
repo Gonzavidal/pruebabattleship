@@ -21,7 +21,8 @@
   ],
   "babel": {
     "presets": [
-      "@babel/preset-env"
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   },
   "author": "Alejandro Sanchez",
@@ -32,12 +33,14 @@
   "homepage": "https://github.com/4GeeksAcademy/vanillajs-hello#readme",
   "dependencies": {
     "@popperjs/core": "^2.10.1",
-    "bootstrap": "^5.1.1"
+    "bootstrap": "^5.1.1",
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.22.5",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "bc-console": "0.0.2",
