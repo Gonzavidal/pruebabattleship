@@ -1,6 +1,6 @@
 import Boat from "./boat";
 
-function boatContainer(props) {
+function BoatContainer(props) {
   const { type, boxes, handleClick } = props;
 
   const boxElements = [];
@@ -25,4 +25,4 @@ function boatContainer(props) {
   );
 }
 
-export default boatContainer;
+export default BoatContainer;

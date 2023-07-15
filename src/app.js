@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import BoardContainer from "./boatContainer";
+import BoatContainer from "./boatContainer";
 import "./styles.css";
 
 function App() {
@@ -109,7 +109,7 @@ function App() {
       )}
       <div className="board">
         {["You", "CPU"].map(type => (
-          <BoardContainer
+          <BoatContainer
             key={type}
             boxes={type === "You" ? playerBoxes : enemyBoxes}
             type={type}
@@ -117,7 +117,6 @@ function App() {
           />
         ))}
       </div>
-      <Footer />
     </div>
   );
 }

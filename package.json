@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4GeeksAcademy/vanillajs-hello.git"
+    "url": "https://github.com/4GeeksAcademy/vanillajs-hello.git"
   },
   "keywords": [
     "Vanilla.js",
